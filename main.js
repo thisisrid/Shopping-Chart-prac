@@ -14,9 +14,9 @@ function pasrseToInt(id) {
 }
 
 //+/- handler
-// if + then increase=True; if - then increase = false;
+// if (+) then "increase"=True; if (-) then "increase" = false;
 //productQuantity means = id of input
-//productCost means = id of total cost
+//productCost means = id of total-cost
 function phoneCount(increase, productQuantity, productCost) {
   const Quantity = document.getElementById(productQuantity).value;
   const QuantityNumber = parseInt(Quantity);
